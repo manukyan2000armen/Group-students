@@ -1,0 +1,85 @@
+.forSearch{
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1{
+    font-size: 50px;
+  }
+  input{
+    width: 350px;
+    height: 30px;
+
+  }
+}
+.divForTable{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    // flex-direction: column;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e22c3d21-e8db-4cd0-9641-a21a51184d46/d8fjqzu-96fa2cbe-dd62-479d-8b95-057eeedebcea.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyMmMzZDIxLWU4ZGItNGNkMC05NjQxLWEyMWE1MTE4NGQ0NlwvZDhmanF6dS05NmZhMmNiZS1kZDYyLTQ3OWQtOGI5NS0wNTdlZWVkZWJjZWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bL6avgnTwKBnhPv_1s7bSNuMRvikWQ3CkS5N4AwFpgI');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+
+
+    .input1{
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 55px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .card{
+      width: 300px;
+      height: 400px;
+      background-color: rgba(255, 255, 255, 0.773);
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+      .card-body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        button{
+          width: 120px;
+          height: 40px;
+          border: none;
+          border-radius: 10px;
+          background:linear-gradient(rgb(169, 138, 138),rgb(147, 75, 75) );
+          color: white;
+          font-size: 15px;
+          transition: .4s;
+          font-weight: 600;
+
+          
+        }
+        button:hover{
+          transition: .4s;
+          cursor: pointer;
+          background-color: rgb(238, 141, 141);
+          
+        }
+        h2{
+          font-family: monospace;
+          font-size: 25px;
+        }
+      }
+    }
+}
